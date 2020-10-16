@@ -1,0 +1,3 @@
+/home/pyrrhus/code/loramac/src/boards/B-L072Z-LRWAN1/CMakeFiles/rebuild_cache.dir
+/home/pyrrhus/code/loramac/src/boards/B-L072Z-LRWAN1/CMakeFiles/B-L072Z-LRWAN1.dir
+/home/pyrrhus/code/loramac/src/boards/B-L072Z-LRWAN1/CMakeFiles/edit_cache.dir

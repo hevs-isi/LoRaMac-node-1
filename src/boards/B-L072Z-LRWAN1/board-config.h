@@ -67,17 +67,17 @@ extern "C"
 #define RADIO_ANT_SWITCH_TX_BOOST                   PC_1
 #define RADIO_ANT_SWITCH_TX_RFO                     PC_2
 
-#define LED_1                                       PB_5
-#define LED_2                                       PA_5
-#define LED_3                                       PB_6
-#define LED_4                                       PB_7
+#define LED_1                                       PB_7
+#define LED_2                                       PH_1
+#define LED_3                                       NC
+#define LED_4                                       NC
 
 #define LED_GREEN                                   LED_1
 #define LED_RED1                                    LED_2
 #define LED_BLUE                                    LED_3
 #define LED_RED2                                    LED_4
 
-#define BTN_1                                       PB_2
+#define BTN_1                                       PA_0
 
 #define OSC_LSE_IN                                  PC_14
 #define OSC_LSE_OUT                                 PC_15
@@ -95,8 +95,8 @@ extern "C"
 #define UART_RX                                     PA_3
 
 // Debug pins definition.
-#define RADIO_DBG_PIN_TX                            PB_13
-#define RADIO_DBG_PIN_RX                            PB_14
+#define RADIO_DBG_PIN_TX                            NC
+#define RADIO_DBG_PIN_RX                            NC
 
 #ifdef __cplusplus
 }

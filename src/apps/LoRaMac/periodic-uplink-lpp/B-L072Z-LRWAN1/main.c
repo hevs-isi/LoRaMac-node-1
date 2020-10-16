@@ -271,6 +271,11 @@ int main( void )
                     &appVersion,
                     &gitHubVersion );
 
+    while(1){
+        printf( "youpi\n" );
+        fflush(stdout);
+    }
+
     if ( LmHandlerInit( &LmHandlerCallbacks, &LmHandlerParams ) != LORAMAC_HANDLER_SUCCESS )
     {
         printf( "LoRaMac wasn't properly initialized" );

@@ -30,6 +30,9 @@
 #include "timer.h"
 #include "radio.h"
 
+#define REGION_EU868
+#define USE_MODEM_LORA
+
 #if defined( REGION_AS923 )
 
 #define RF_FREQUENCY                                923000000 // Hz
@@ -156,6 +159,13 @@ int main( void )
 #endif
 
     Radio.Rx( 0 ); // Continuous Rx
+
+    uint8_t ledState = 0;
+
+    for(int i = 0; i < 1000; i++){
+        ledState ^=1;
+        GpioWrite( &Led1, ledState );
+    }
 
     while( 1 )
     {

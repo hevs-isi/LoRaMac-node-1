@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/B-L072Z-LRWAN1.dir/adc-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/delay-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/eeprom-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/gpio-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/lpm-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/rtc-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/spi-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/sx1276-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/uart-board.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/sysIrqHandlers.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/utilities.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/arm-gcc/startup_stm32l072xx.s.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/cmsis/system_stm32l0xx.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_adc_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rtc_ex.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_spi.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart.c.o"
+  "CMakeFiles/B-L072Z-LRWAN1.dir/home/pyrrhus/code/loramac/src/boards/mcu/stm32/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_uart_ex.c.o"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang ASM C)
+  include(CMakeFiles/B-L072Z-LRWAN1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

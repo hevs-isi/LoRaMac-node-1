@@ -25,6 +25,8 @@
 #include "timer.h"
 #include "radio.h"
 
+#define REGION_EU868
+
 #if defined( REGION_AS923 )
 
 #define RF_FREQUENCY                                923000000 // Hz
@@ -53,7 +55,7 @@
 #elif defined( REGION_EU868 )
 
 #define RF_FREQUENCY                                868000000 // Hz
-#define TX_OUTPUT_POWER                             14        // 14 dBm
+#define TX_OUTPUT_POWER                             10        // 14 dBm
 
 #elif defined( REGION_KR920 )
 

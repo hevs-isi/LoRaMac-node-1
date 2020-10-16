@@ -148,11 +148,11 @@ void BoardInitMcu( void )
         FifoInit( &Uart2.FifoRx, Uart2RxBuffer, UART2_FIFO_RX_SIZE );
         // Configure your terminal for 8 Bits data (7 data bit + 1 parity bit), no parity and no flow ctrl
         UartInit( &Uart2, UART_2, UART_TX, UART_RX );
-        UartConfig( &Uart2, RX_TX, 921600, UART_8_BIT, UART_1_STOP_BIT, NO_PARITY, NO_FLOW_CTRL );
+        UartConfig( &Uart2, RX_TX, 115200, UART_8_BIT, UART_1_STOP_BIT, NO_PARITY, NO_FLOW_CTRL );
 
         RtcInit( );
 
-        GpioWrite( &Led1, 0 );
+        GpioWrite( &Led1, 1 );
         GpioWrite( &Led2, 0 );
         GpioWrite( &Led3, 0 );
         GpioWrite( &Led4, 0 );
